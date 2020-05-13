@@ -2,7 +2,7 @@
 error_reporting(0);
 
 include ("riverrun.php");
-include ("spam_block.php");
+//include ("spam_block.php");
 
 $name = upload();
 
@@ -18,6 +18,7 @@ $day = date("d");
 $month = date("m");
 
 $year = date("y");
+
 
 
 $date = current_date();

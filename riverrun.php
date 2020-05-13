@@ -67,13 +67,7 @@ function upload() {
 
 
     
-    
-    $dir2 = $dir . basename($_FILES["file"]["name"]);
-
-
-    if(file_exists("$dir2")){echo 'already exists!'; die;}
-
-
+        
 
     $file_name = basename($_FILES["file"]["name"]);
 
@@ -81,18 +75,21 @@ function upload() {
 
     $file_name2 = $_FILES["file"]["tmp_name"];
 
-    $random_name = random_hexa();
+    $sha1_name = sha1_file($file_name2);
 
     $extension = substr($file_name, -4);
 
-    $final_name = $random_name . $extension;
+    $final_name = $sha1_name . $extension;
+
+    if(file_exists("$dir/$final_name")){echo 'already exists!'; die;}
+
 
     $imageFileType = strtolower(pathinfo($dir2, PATHINFO_EXTENSION));
 
 
 
 
-    $dir3 = $dir . '/' . $random_name . $extension;
+    $dir3 = $dir . '/' . $final_name;
 
 
     move_uploaded_file($file_name2, $dir3);

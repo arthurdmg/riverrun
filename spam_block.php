@@ -16,7 +16,7 @@ $year = date("y");
 
 
 
-if(file_exists("IP/$dir/$year/$month/$day/$hour/$minute/$user_ip_")){
+if(file_exists("IP/$year/$month/$day/$hour/$minute/$user_ip_")){
 echo "Wait one minute for post again!";
 die;
 }

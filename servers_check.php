@@ -71,7 +71,6 @@ while (($data = fgetcsv($cvs)) !== FALSE)
 if(!file_exists("FILES/$data[0]")){
 
 
-
 $format = "$url/FILES/$data[0]";
 
 $content =  file_get_contents("$format");
@@ -106,7 +105,6 @@ $fp2 = fopen("$dir/$file/$year/$month/$day/$data[$i]", "w");
 
 fclose($fp2);
 }
-
 $x++;
 }
 

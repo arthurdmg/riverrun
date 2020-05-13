@@ -62,9 +62,11 @@
 
             <li role="presentation" ><a href="upload.php">Upload</a></li>
 
+            <li role="presentation"><a href="login.php">Login</a></li>
+
             <li role="presentation" class="active"><a href="about.php">About</a></li>
 
-		<li role="presentation"><a href="index02.php">Servers</a></li>
+	    <li role="presentation"><a href="index02.php">Servers</a></li>
   
 
 	          </ul>
