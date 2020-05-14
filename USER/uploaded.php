@@ -104,7 +104,7 @@ fclose($fp5);
 echo "ok";
 
 $list = array (
-    array($name,$tag[1], $file[2], $tag[3], $tag[4], $tag[5], $tag[6], $tag[7], $tag[8], $tag[9], $tag[10], $tag[11], $tag[12], $tag[13], $tag[14], $tag[15], $date),
+    array($name,$tag[1], $tag[2], $tag[3], $tag[4], $tag[5], $tag[6], $tag[7], $tag[8], $tag[9], $tag[10], $tag[11], $tag[12], $tag[13], $tag[14], $tag[15], $date),
 );
 
 $fp4 = fopen('../ADVANCED/file.csv', 'a');
