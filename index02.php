@@ -2,7 +2,7 @@
 <head>
 
 
-<link rel="icon" href="favicon.png" type="image/x-icon">
+<link rel="icon" href="favicon.jpg" type="image/x-icon">
 <title>riverrun</title>
 
 <style type="text/css">
@@ -80,7 +80,7 @@ right: 10px;
 </tr>
 </table>
 
-<a href="RIVERRUN2.0.2.1.zip">Download Source Code</a>
+<a href="RIVERRUN3.0.zip">Download Source Code</a>
 
 <iframe src="servers.php" width="100%" name="targetframe" allowTransparency="true" scrolling="no" frameborder="1" ></iframe>
 

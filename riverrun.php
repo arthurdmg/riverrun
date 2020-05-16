@@ -177,15 +177,15 @@ $exp = explode("/", $file4);
 
     if ($extension == "png" || $extension == "jpg" || $extension == "gif" || $extension == "jpeg"){
 
-    echo "<a href='FILES/$files'><img src='FILES/$files' width='49%' height='49%' alt='$files'></a> ";
+    echo "<a href='FILES/$files'><img src='FILES/$files' width='47%' height='47%' alt='$files'></a> ";
 
     } elseif ($extension == "mp4"){
 
-    echo "<video controls width='49%' height='49%'><source src='FILES/$files' type='video/mp4'></video> ";
+    echo "<video controls width='47%' height='47%'><source src='FILES/$files' type='video/mp4'></video> ";
 
     } else{
 
-    if ($extension == "webm"){echo "<video controls width='49%' height='49%'><source src='FILES/$files' type='video/webm'></video> ";} 
+    if ($extension == "webm"){echo "<video controls width='47%' height='47%'><source src='FILES/$files' type='video/webm'></video> ";} 
 
     if ($extension == "mp3"){echo "<audio controls src='FILES/$files'><code>audio</code></audio> ";} 
 

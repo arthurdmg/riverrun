@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.jpg" type="image/x-icon">
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,7 @@
 <meta name="description" content="">
 
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+   
 
 
 

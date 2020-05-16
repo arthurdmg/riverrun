@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.jpg">
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +12,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
 <meta name="description" content="">
-
+  
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+   
 
 
 
@@ -83,15 +83,24 @@
 		<input type="text" name="search" class="btn btn-lg btn-success" style="background-color: #fff; color: #999;">
 
 		<input type="submit" name="button" class="btn btn-lg btn-success" value="search">
-			
-		</p>
-      </div>
+	</p>
+ 
+<a href="FORMATS/JPG/index.php">JPG -</a> 
+<a href="FORMATS/MP4/index.php">MP4 -</a> 
+<a href="FORMATS/MP3/index.php">MP3 -</a> 
+<a href="FORMATS/PDF/index.php">PDF -</a>
+<a href="FORMATS/APK/index.php">APK -</a> 
+<a href="recent_files.php">Recent files -</a> 
+<a href="USER/rating.php">Most liked</a>  
+
+
+</div> 
 </form>
 
-      <div class="row marketing">
+  <div class="row marketing">
 
         <div class="col-lg-6">
-	   <a href='RIVERRUN2.0.2.1.zip'> >> Download Source Code</a>
+	   <a href='RIVERRUN3.0.zip'> >> Download Source Code</a>
          
        </div>
 

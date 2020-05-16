@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-    <link rel="icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="icon" href="favicon.jpg">
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +12,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
 <meta name="description" content="">
-
+  
     <meta name="author" content="">
-    
+   
 
 
 
@@ -58,70 +58,52 @@
         <nav>
           <ul class="nav nav-pills pull-right">
 
-            <li role="presentation" ><a href="index.php">Home</a></li>
+            <li role="presentation" class="active"><a href="#">Home</a></li>
 
             <li role="presentation"><a href="upload.php">Upload</a></li>
 
-            <li role="presentation" class="active"><a href="login.php">Login</a></li>
+            <li role="presentation"><a href="login.php">Login</a></li>
 
 	    <li role="presentation"><a href="about.php">About</a></li>
 
-		<li role="presentation"><a href="index02.php">Servers</a></li> 
-
+		<li role="presentation"><a href="index02.php">Servers</a></li>
+  
 	          </ul>
 
         </nav>
         <h3 class="text-muted"><RIVERRUN></h3>
       </div>
+<form action="search.php" method="POST">
 
       <div class="jumbotron">
+        <h1>welcome</h1>
+        <p class="lead">to riverrun</p>
 
-<span id="logo"> L O G I N / R E G I S T E R</span>
-      </div>
+        <p>
+		<input type="text" name="search" class="btn btn-lg btn-success" style="background-color: #fff; color: #999;">
 
-
-<table width="100%">
-<tr>
-<td width="50%">
-<form action="USER/login.php" method="POST">
-
-<h1>Login</h1>
-
-User</br>
-<input type="text" name="userlogin" ></br>
-
-Password</br>
-<input type="password" name="passlogin" ></br>
-</br>
-<input type="submit" align="" name="button01" value="login" >
+		<input type="submit" name="button" class="btn btn-lg btn-success" value="search">
+	</p>
+ <a href="recent_files.php">Recent files -</a> <a href="USER/rating.php">Most liked</a>  </div> 
 </form>
 
-</td>
+  <div class="row marketing">
 
-<td>
-<form action="USER/registration.php" method="POST">
-
-<h1>Register</h1>
-
-
-Generate a random username and password for login</br>
-
-<u>important note</u> : You cannot delete or edit any file once uploaded</br>
-
-</br>
-<input type="submit" align="" name="button01" value="generate" >
-</form>
-</td>
-</tr>
-</table>
+        <div class="col-lg-6">
+	   <a href='RIVERRUN2.0.2.2.zip'> >> Download Source Code</a>
+         
+       </div>
 
 
 
- </div>
+	</br></br>
+	
+	 </div>
 
 
       <footer class="footer">
-        
+        <p>&copy; 2020 - riverrun</p>
+ 
 
      </footer>
 
